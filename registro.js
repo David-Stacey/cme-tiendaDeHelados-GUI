@@ -84,10 +84,10 @@ const showRecords = async () => {
                 <tr         
                     data-bs-toggle="tooltip" 
                     data-bs-placement="bottom"
-                    title="${"error" /** Aquí se pone el detalle de la compra */}" 
+                    title="${"date" /** Aquí se pone el detalle de la compra */}" 
                 >
-                    <td>${"error" /** Aquí va la fecha de cada compra */ }</td>
-                    <td>${"error" /** Aquí va  el valor de cada compra*/}</td>
+                    <td>${"value" /** Aquí va la fecha de cada compra */ }</td>
+                    <td>${"obs" /** Aquí va  el valor de cada compra*/}</td>
                 </tr>
             `;
       }
